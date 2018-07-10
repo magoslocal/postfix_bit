@@ -1,0 +1,8 @@
+---
+# vars file for postfix (CentOS specific)
+
+_postfix_package_dependencies:
+  - build-essential
+
+_postfix_packages:
+  - packages

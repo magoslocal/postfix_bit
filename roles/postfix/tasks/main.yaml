@@ -1,0 +1,14 @@
+---
+# task for postfix
+
+- include: include_vars.yaml
+
+- include: apps.yaml
+
+- include: dependences.yaml
+
+- include: templates.yaml
+
+- include: environment.yaml
+
+- include: post_install.yaml

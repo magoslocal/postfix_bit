@@ -1,0 +1,15 @@
+---
+# vars file for postfix
+
+# _postfix_create_files:
+
+#   - path: "{{ _path_dir }}"
+#     state: "directory"
+#     # group: "root"
+#     owner: "{{ user }}"
+
+
+# _postfix:
+#   templates:
+#     - src: "foo.conf.j2"
+#       dest: {{ _postfix_file }}
